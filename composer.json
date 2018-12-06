@@ -1,12 +1,17 @@
 {
     "name": "starrysea/arrays",
     "description": "Extend array operations to meet more array processing requirements",
+    "homepage": "https://github.com/caixingyue/laravel-starrysea-arrays",
+    "license": "MIT",
     "authors": [
         {
             "name": "caixingyue",
             "email": "917373332@qq.com"
         }
     ],
+    "support": {
+        "issues": "https://github.com/caixingyue/laravel-starrysea-arrays/issues"
+    },
     "require": {
         "php": "^7.0"
 	},
