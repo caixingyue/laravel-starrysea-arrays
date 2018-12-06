@@ -39,7 +39,7 @@ composer require starrysea/arrays
 ```bash
 $app->register(Starrysea\Arrays\ArraysServiceProvider::class); // 注册 Arrays 服务提供者
 
-class_alias('Starrysea\Arrays\ArraysServiceProvider::class', 'Arrays'); // 添加 Arrays 门面
+class_alias('Starrysea\Arrays\Arrays::class', 'Arrays'); // 添加 Arrays 门面
 ```
 
 ## 用法
