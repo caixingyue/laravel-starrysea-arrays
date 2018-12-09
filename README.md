@@ -12,7 +12,7 @@
 composer require starrysea/arrays
 ```
 
-在 Laravel 5.6 中，服务提供商将自动注册。在旧版本的框架中，只需在 config/app.php 文件中添加服务提供程序：
+在 Laravel 5.6 中，服务提供商将自动注册。在旧版本的框架中，只需在 `config/app.php` 文件中添加服务提供程序：
 
 ```php
 'providers' => [
@@ -36,7 +36,7 @@ composer require starrysea/arrays
 
 注册服务提供者和门面：
 
-```bash
+```php
 $app->register(Starrysea\Arrays\ArraysServiceProvider::class); // 注册 Arrays 服务提供者
 
 class_alias(Starrysea\Arrays\Arrays::class, 'Arrays'); // 添加 Arrays 门面
